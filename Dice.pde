@@ -45,10 +45,6 @@ class Die { //models one single dice cube
 
   void roll() {
     num = (int)(Math.random()*6)+1; 
-    System.out.print("Rolling the Die"); 
-    System.out.println(); 
-    System.out.print(num);// print the score,rolling the Die, adn the Num
-    System.out.print(score);
   }
   void show() {
     rect(x, y, 100, 100, 7); 
